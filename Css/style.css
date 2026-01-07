@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 @font-face {
@@ -18,12 +19,13 @@
 }
 
 nav{
+    background-color: blueviolet;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 30px;
     padding: 50px;
-    background-color: blueviolet;
+    
     
 }
 nav h1{
@@ -55,7 +57,7 @@ nav ul li a:hover{
     height: 1000px; 
     background-image: url('../Img/backgroundKdrampng.png'); 
     background-attachment: fixed;  
-    background-position: center 50px;
+    background-position: center ;
 }
 .divBackgroundSerie h1{
     color: white;
@@ -64,12 +66,53 @@ nav ul li a:hover{
     line-height: 900%;
     font-size: 4rem;
 }
+.divBackgroundSerie p{
+    color: white;
+    font-family: navKdram;
+    text-align: center;
+    font-size: 4rem;
+}
 .divBackgroundBlack{
     width: 100%;
     height: 1500px; 
     background-image: url('../Img/backgroundBlackwebp.webp'); 
     background-attachment: fixed;  
     background-position: center 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 100px;
+}
+.divBackgroundBlack h1{
+    margin: 100px;
+    font-family: navKdram;
+    font-size: 4rem;
+}
+.article1{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+.article1 p{
+    margin: 100px;
+    font-size: 2rem;
+    padding: 50px;
+    font-family: navKdram;
+}
+article{
+    margin: 50px;
+}
+.article2{
+    display: flex;
+    justify-content: center;
+
+}
+.article2 h2{
+    
+    font-size: 3rem;
+    font-family: navKdram;
+
 }
 
 .text-scroll {
